@@ -2,7 +2,7 @@ import java.util.function.BiPredicate;
 
 public class podio {
     public static void main(String[] args) {
-        int pos = 5;
+        int pos = 7;
         switch(pos){
             case 1:
                 System.out.println("Primeiro lugar");
@@ -13,8 +13,10 @@ public class podio {
             case 3:
                 System.out.println("Terceiro lugar");
                 break;
+            case 4: case 5: case 6:
+                System.out.println("Prêmio de participação");
             default:
-                System.out.println("Não subiu no pódio");
+                System.out.println("Não ganhou prêmio");
                 break;
         }
     }
