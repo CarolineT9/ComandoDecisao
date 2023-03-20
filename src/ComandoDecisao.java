@@ -1,7 +1,7 @@
 public class ComandoDecisao{
     public static void main(String[] args) {
         
-
+        
         int nota = 85;
         int faltas = 10;
         int maxFaltas = 5;
